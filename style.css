@@ -176,3 +176,30 @@ section {
     font-size: 16px;
     color: #1F2937;
 }
+
+/* Quote Section Styles */
+.quote {
+    background-color: #E5E7EB;
+}
+
+/* Center the quote content */
+.quote-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Quote text styling */
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    margin-bottom: 24px;
+}
+
+/* Author text styling */
+.quote-author {
+    text-align: right;
+    font-weight: 700;
+    font-size: 20px;
+}
