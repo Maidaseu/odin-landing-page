@@ -135,3 +135,44 @@ section {
     justify-content: center;
     font-size: 14px;
 }
+
+/* Section spacing & heading */
+.info {
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 48px;
+}
+
+/* Layout for info cards using Flexbox */
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Card container styling */
+
+.card {
+    max-width: 160px;
+}
+
+
+/* Blue outline boxes */
+.card-box {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+/* Card title styling */
+.card p {
+    font-size: 16px;
+    color: #1F2937;
+}
