@@ -203,3 +203,42 @@ section {
     font-weight: 700;
     font-size: 20px;
 }
+
+/* CTA section spacing */
+.cta {
+    padding: 80px 0px;
+}
+
+/* CTA box layout */
+.cta-box {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #3882F6;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+}
+
+/* CTA text styling */
+.cta-text h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}  
+
+.cta-text p {
+    color: #E5E7EB;
+}
+
+/* CTA button styling */
+.cta button {
+    background-color: transparent;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    padding: 10px 32px;
+    border-radius: 6px;
+    font-weight: 700;
+}
