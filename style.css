@@ -242,3 +242,21 @@ section {
     border-radius: 6px;
     font-weight: 700;
 }
+
+/* Footer Styles */
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 14px;
+}
+
+/* Extra polish */
+button:hover {
+    opacity: 0.9;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
